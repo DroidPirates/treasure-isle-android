@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        coroutinesVersion = "1.3.3"
+        coroutinesVersion = "1.3.7"
 
         // Jetpack
         activityVersion="1.2.0-alpha05"

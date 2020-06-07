@@ -52,8 +52,12 @@ kapt {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
 
+    // Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$rootProject.kotlinVersion"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion"
 
+    // Jetpack
     implementation "androidx.core:core-ktx:$coreVersion"
 //    implementation "androidx.activity:activity-ktx:$activityVersion"
     implementation "androidx.fragment:fragment-ktx:$fragmentVersion"
